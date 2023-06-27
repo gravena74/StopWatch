@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-blue-400">
+  <nav class="bg-blue-800 drop-shadow-xl">
+    <div class="flex justify-around">
+      <ul class="m-6 cursor-pointer">
+        <li class="font-bold"><a class="hover:text-blue-300" href="#">Logo</a></li>
+      </ul>
+      <ul class="flex m-6 cursor-pointer">
+        <li class="mr-5 mt-1"><a class="hover:text-blue-300" href="">About</a></li>
+        <li class="mr-5 mt-1"><a class="hover:text-blue-300" href="#">History</a></li>
+        <li class="mr-5 mt-1"><a class="hover:text-blue-300" href="#">Shop</a></li>
+        <li class="mr-4 bg-blue-200 ring-2 ring-blue-100 rounded-full p-1 hover:bg-blue-300 hover:ring-blue-200">Login</li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="text-9xl w-100 h-100 flex justify-center items-center text-white">
+    <div class="flex">
+      <div class="bg-slate-700 rounded-3xl p-4 drop-shadow-xl">
+        <h1 id="hours">10</h1>
+      </div>
+      <p>:</p>
+      <div class="bg-slate-700 rounded-3xl p-4 drop-shadow-xl">
+        <h1 id="minutes">59</h1>
+      </div>
+      <p>:</p>
+      <div class="bg-slate-700 rounded-3xl p-4 drop-shadow-xl">
+        <h1 id="seconds">60</h1>
+      </div>
+    </div>
+    <div>
+  </main>
+  <script src="contador.js"></script>
+</body>
+</html>
